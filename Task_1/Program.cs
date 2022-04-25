@@ -1,12 +1,6 @@
-﻿Console.WriteLine("Введите целое число -> ");
-int numA = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите целое число -> ");
-int numB = int.Parse(Console.ReadLine());
-if(numB * numB == numA )
-{
-    Console.WriteLine("true");
-}
-else 
-{
-    Console.WriteLine("folse");
-}
+﻿Console.WriteLine("Введите число 1 -> ");
+int num1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число 2 -> ");
+int num2 = int.Parse(Console.ReadLine());
+bool result = num2 * num2 == num1;
+Console.WriteLine(result ? "да" : "нет");
